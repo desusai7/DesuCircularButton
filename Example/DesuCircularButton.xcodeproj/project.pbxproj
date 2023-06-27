@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B9EEB6C54C9D0C2D36983B0 /* Pods_DesuCircularButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4824EC11E68F63C100F564DB /* Pods_DesuCircularButton_Tests.framework */; };
+		0E26A7B4024203C67C418019 /* Pods_DesuCircularButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056AB9CE9E2FA013E4927205 /* Pods_DesuCircularButton_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		71E4F468FEFDEBD091CE013C /* Pods_DesuCircularButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE67B173BF9AE74C66DCAD3 /* Pods_DesuCircularButton_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C7FFC78591E62EAE66E17205 /* Pods_DesuCircularButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8133CF6EEBBE89D264AEE81 /* Pods_DesuCircularButton_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056AB9CE9E2FA013E4927205 /* Pods_DesuCircularButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuCircularButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC951816F055B803C2D71A9 /* Pods-DesuCircularButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Example.release.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		19E5083BB20EB92D31BFAB8C /* DesuCircularButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DesuCircularButton.podspec; path = ../DesuCircularButton.podspec; sourceTree = "<group>"; };
-		4824EC11E68F63C100F564DB /* Pods_DesuCircularButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuCircularButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4836E926011A5C86E424B3BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4CE67B173BF9AE74C66DCAD3 /* Pods_DesuCircularButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuCircularButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DesuCircularButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesuCircularButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6C6D1574DED9616B46EBDC4E /* Pods-DesuCircularButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AED86617FE66F31E91475BA6 /* Pods-DesuCircularButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Tests/Pods-DesuCircularButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BFBB6A282E6115AB68D6BD4B /* Pods-DesuCircularButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Example.release.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A53AE109693C52C0C0D0D08E /* Pods-DesuCircularButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Tests/Pods-DesuCircularButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8133CF6EEBBE89D264AEE81 /* Pods_DesuCircularButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuCircularButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F8E9D2B5F5FF14A2A054FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EAE2DD6B0709B3D632B089BC /* Pods-DesuCircularButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Tests/Pods-DesuCircularButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD1ACF11FD9F62ED4E67BF7F /* Pods-DesuCircularButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB73EE18657582053B7D318E /* Pods-DesuCircularButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuCircularButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-DesuCircularButton_Tests/Pods-DesuCircularButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				71E4F468FEFDEBD091CE013C /* Pods_DesuCircularButton_Example.framework in Frameworks */,
+				C7FFC78591E62EAE66E17205 /* Pods_DesuCircularButton_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,20 +88,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2B9EEB6C54C9D0C2D36983B0 /* Pods_DesuCircularButton_Tests.framework in Frameworks */,
+				0E26A7B4024203C67C418019 /* Pods_DesuCircularButton_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10BBE28DC0297B40DC59AFD7 /* Pods */ = {
+		1FE69991537B4B18D20E2023 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD1ACF11FD9F62ED4E67BF7F /* Pods-DesuCircularButton_Example.debug.xcconfig */,
-				BFBB6A282E6115AB68D6BD4B /* Pods-DesuCircularButton_Example.release.xcconfig */,
-				EAE2DD6B0709B3D632B089BC /* Pods-DesuCircularButton_Tests.debug.xcconfig */,
-				AED86617FE66F31E91475BA6 /* Pods-DesuCircularButton_Tests.release.xcconfig */,
+				6C6D1574DED9616B46EBDC4E /* Pods-DesuCircularButton_Example.debug.xcconfig */,
+				0EC951816F055B803C2D71A9 /* Pods-DesuCircularButton_Example.release.xcconfig */,
+				A53AE109693C52C0C0D0D08E /* Pods-DesuCircularButton_Tests.debug.xcconfig */,
+				FB73EE18657582053B7D318E /* Pods-DesuCircularButton_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -115,7 +115,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				10BBE28DC0297B40DC59AFD7 /* Pods */,
+				1FE69991537B4B18D20E2023 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,8 +135,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4CE67B173BF9AE74C66DCAD3 /* Pods_DesuCircularButton_Example.framework */,
-				4824EC11E68F63C100F564DB /* Pods_DesuCircularButton_Tests.framework */,
+				B8133CF6EEBBE89D264AEE81 /* Pods_DesuCircularButton_Example.framework */,
+				056AB9CE9E2FA013E4927205 /* Pods_DesuCircularButton_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DesuCircularButton_Example" */;
 			buildPhases = (
-				38CA46B20B5B5A497FB882F8 /* [CP] Check Pods Manifest.lock */,
+				A3181B5B90CD55570BC32749 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D89840DC29FB3E9629A15C19 /* [CP] Embed Pods Frameworks */,
+				4657DCC87899F42DF4C277D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DesuCircularButton_Tests" */;
 			buildPhases = (
-				292F0F52DC68425A4B11915C /* [CP] Check Pods Manifest.lock */,
+				4CACE34490532F63D8595B86 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -295,7 +295,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		292F0F52DC68425A4B11915C /* [CP] Check Pods Manifest.lock */ = {
+		4657DCC87899F42DF4C277D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DesuCircularButton/DesuCircularButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DesuCircularButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CACE34490532F63D8595B86 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,7 +335,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		38CA46B20B5B5A497FB882F8 /* [CP] Check Pods Manifest.lock */ = {
+		A3181B5B90CD55570BC32749 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,24 +355,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D89840DC29FB3E9629A15C19 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DesuCircularButton/DesuCircularButton.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DesuCircularButton.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesuCircularButton_Example/Pods-DesuCircularButton_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -491,7 +491,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD1ACF11FD9F62ED4E67BF7F /* Pods-DesuCircularButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 6C6D1574DED9616B46EBDC4E /* Pods-DesuCircularButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -507,7 +507,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFBB6A282E6115AB68D6BD4B /* Pods-DesuCircularButton_Example.release.xcconfig */;
+			baseConfigurationReference = 0EC951816F055B803C2D71A9 /* Pods-DesuCircularButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -523,7 +523,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAE2DD6B0709B3D632B089BC /* Pods-DesuCircularButton_Tests.debug.xcconfig */;
+			baseConfigurationReference = A53AE109693C52C0C0D0D08E /* Pods-DesuCircularButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +548,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED86617FE66F31E91475BA6 /* Pods-DesuCircularButton_Tests.release.xcconfig */;
+			baseConfigurationReference = FB73EE18657582053B7D318E /* Pods-DesuCircularButton_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

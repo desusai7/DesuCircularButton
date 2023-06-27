@@ -7,12 +7,14 @@
 //
 
 #import "DSAppDelegate.h"
+#import <DesuCircularButton/AddTwo.h>
 
 @implementation DSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"%d",[AddTwo sumOf:3 with:2]);
     return YES;
 }
 

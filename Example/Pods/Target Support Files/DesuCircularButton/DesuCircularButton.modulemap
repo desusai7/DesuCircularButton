@@ -1,0 +1,6 @@
+framework module DesuCircularButton {
+  umbrella header "DesuCircularButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

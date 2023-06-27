@@ -6,10 +6,19 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+appboy_sdk_version = '4.4.2'
+
+if defined?($AppboySDKVersion)
+  Pod::UI.puts "BrazeDesu: Using user specified Appboy SDK version '#{$AppboySDKVersion}'"
+  appboy_sdk_version = $AppboySDKVersion
+else
+  Pod::UI.puts "BrazeDesu: Using default Appboy SDK version '#{appboy_sdk_version}'"
+end
+
 Pod::Spec.new do |s|
   s.name             = 'DesuCircularButton'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DesuCircularButton.'
+  s.summary          = 'A simple library for DesuCircularButton.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,14 +31,10 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/48179357/DesuCircularButton'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '48179357' => 'venkat@rudderstack.com' }
-  s.source           = { :git => 'https://github.com/48179357/DesuCircularButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { '48179357' => 'saivenkatdesu@gmail.com' }
+  s.source           = { :git => 'https://github.com/desusai7/DesuCircularButton.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'DesuCircularButton/Classes/**/*'
   
   # s.resource_bundles = {

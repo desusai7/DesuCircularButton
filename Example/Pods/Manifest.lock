@@ -1,0 +1,16 @@
+PODS:
+  - DesuCircularButton (0.1.0)
+
+DEPENDENCIES:
+  - DesuCircularButton (from `../`)
+
+EXTERNAL SOURCES:
+  DesuCircularButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DesuCircularButton: a0bdc8b0ba0c3b6277405d92b40f1a6780ee7db2
+
+PODFILE CHECKSUM: 5363a5c5f472f683fcf9c6605506224ff3c80167
+
+COCOAPODS: 1.12.0
